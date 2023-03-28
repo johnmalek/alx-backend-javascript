@@ -1,5 +1,4 @@
-export default function getListStudents(){
-  const studentsArray = [
+const getListStudents = () => [
     {
       "id": 1,
       "firstname": "Guillaume",
@@ -15,6 +14,6 @@ export default function getListStudents(){
       "firstname": "Serena",
       "location": "San Francisco"
     }
-  ]
-  return studentsArray;
-}
+  ];
+
+export default getListStudents;
