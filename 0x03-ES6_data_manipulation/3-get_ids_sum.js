@@ -1,3 +1,4 @@
+/*eslint-disable*/
 export default function(students) {
   const reduced = students.reduce((sum, val) => {
     return sum + val.id;

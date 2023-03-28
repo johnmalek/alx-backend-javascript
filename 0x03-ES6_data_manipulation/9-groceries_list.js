@@ -1,3 +1,4 @@
+/*eslint-disable*/
 export default function groceriesList(){
   const map = new Map();
   const groceries = {

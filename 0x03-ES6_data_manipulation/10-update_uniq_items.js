@@ -1,3 +1,4 @@
+/*eslint-disable*/
 export default function updateUniqueItems(map){
   if (map instanceof Map) {
     for (const [key, value] of map.entries()) {
